@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
-import type { Figure, GuessFigureState, GameStatus } from '../types';
+import type { Figure, GuessFigureState } from '../types';
 import chineseFigures from '../data/figures/chinese_figures.json';
 
 const pickRandom = <T>(items: T[]): T => {
@@ -15,7 +15,7 @@ export function useGuessFigure() {
     status: 'playing',
   });
 
-  const [playedFigures, setPlayedFigures] = useState<Set<string>>(new Set());
+  const [, setPlayedFigures] = useState<Set<string>>(new Set());
 
   const initGame = useCallback(() => {
     const figures = chineseFigures as Figure[];

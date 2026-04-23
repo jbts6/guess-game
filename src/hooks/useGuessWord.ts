@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
-import type { Word, GuessWordState, GameStatus } from '../types';
+import type { GuessWordState, GameStatus } from '../types';
 import { loadWordsUpToGrade, pickRandom } from '../utils/wordMatcher';
 
 export function useGuessWord(grade: number, maxAttempts: number, enableHint: boolean = false) {
@@ -13,7 +13,7 @@ export function useGuessWord(grade: number, maxAttempts: number, enableHint: boo
     error: null,
   });
 
-  const [playedWords, setPlayedWords] = useState<Set<string>>(new Set());
+  const [, setPlayedWords] = useState<Set<string>>(new Set());
 
   const initGame = useCallback(() => {
     try {

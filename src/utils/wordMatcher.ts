@@ -23,7 +23,6 @@ const gradesData: Record<number, Word[]> = {
 
 export function matchWord(guess: string, answer: string): LetterResult[] {
   const result: LetterResult[] = [];
-  const minLength = Math.min(guess.length, answer.length);
   
   for (let i = 0; i < guess.length; i++) {
     const letter = guess[i];

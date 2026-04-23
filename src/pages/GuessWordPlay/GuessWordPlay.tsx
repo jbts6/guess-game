@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useLocation, useNavigate } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import { useGuessWord } from '../../hooks/useGuessWord';
 import { useStats } from '../../hooks/useStats';
 import { matchWord } from '../../utils/wordMatcher';
@@ -9,7 +9,6 @@ import styles from './GuessWordPlay.module.css';
 
 export function GuessWordPlay() {
   const location = useLocation();
-  const navigate = useNavigate();
   const { grade, attempts, enableHint } = location.state || { grade: 3, attempts: 5, enableHint: false };
   
   const { state, submitGuess, skipGame, initGame, clearError } = useGuessWord(grade, attempts, enableHint);

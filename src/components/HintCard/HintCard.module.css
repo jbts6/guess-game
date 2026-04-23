@@ -1,0 +1,34 @@
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border: 2px dashed #93c5fd;
+  margin-bottom: 1rem;
+  animation: slideIn 0.3s ease;
+}
+
+.header {
+  margin-bottom: 1rem;
+}
+
+.badge {
+  background: #3b82f6;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.content {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 0;
+  line-height: 1.5;
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

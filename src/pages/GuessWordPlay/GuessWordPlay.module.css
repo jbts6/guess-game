@@ -1,0 +1,155 @@
+.play {
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.gradeTag {
+  background: #3b82f6;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-weight: bold;
+}
+
+.progress {
+  color: #4b5563;
+  font-weight: bold;
+}
+
+.gameArea {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.currentRow, .emptyRow {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.emptyTile {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 8px;
+  background-color: #f3f4f6;
+  border: 2px solid #d1d5db;
+  color: #374151;
+  text-transform: uppercase;
+}
+
+.inputArea {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.inputGroup {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+
+.input {
+  flex: 1;
+  padding: 1rem;
+  font-size: 1.2rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
+  outline: none;
+  text-transform: lowercase;
+  font-family: inherit;
+}
+
+.input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+.submitBtn {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 0 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.2s;
+  font-family: inherit;
+}
+
+.submitBtn:hover {
+  background: #2563eb;
+}
+
+.skipBtn {
+  background: transparent;
+  border: none;
+  color: #9ca3af;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0.5rem;
+  font-family: inherit;
+}
+
+.skipBtn:hover {
+  color: #4b5563;
+}
+
+.error {
+  color: #dc2626;
+  background: #fee2e2;
+  padding: 0.75rem;
+  border-radius: 8px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.wordDetails {
+  font-size: 1.1rem;
+  text-align: left;
+}
+
+.wordDetails p {
+  margin: 0.5rem 0;
+}
+
+.examples {
+  margin-top: 1rem;
+}
+
+.examples ul {
+  margin: 0.5rem 0 0 0;
+  padding-left: 1.5rem;
+}
+
+.examples li {
+  margin-bottom: 0.5rem;
+}

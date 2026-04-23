@@ -1,0 +1,102 @@
+.home {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.title {
+  color: #374151;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 0px rgba(0,0,0,0.1);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.card {
+  background: white;
+  border-radius: 20px;
+  padding: 2.5rem;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+.wordCard {
+  border-top: 8px solid #3b82f6;
+}
+
+.figureCard {
+  border-top: 8px solid #f59e0b;
+}
+
+.icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  font-size: 1.8rem;
+  margin: 0 0 1rem 0;
+  color: #1f2937;
+}
+
+.card p {
+  color: #6b7280;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  flex: 1;
+}
+
+.playBtn {
+  background: #f3f4f6;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 9999px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #374151;
+  transition: all 0.2s;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.wordCard:hover .playBtn {
+  background: #3b82f6;
+  color: white;
+}
+
+.figureCard:hover .playBtn {
+  background: #f59e0b;
+  color: white;
+}
+
+.footer {
+  margin-top: 2rem;
+}
+
+.statsLink {
+  color: #6b7280;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.statsLink:hover {
+  color: #3b82f6;
+  background: rgba(59, 130, 246, 0.1);
+}

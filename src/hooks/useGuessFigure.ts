@@ -19,33 +19,44 @@ export function useGuessFigure() {
 
   const initGame = useCallback(() => {
     const figures = chineseFigures as Figure[];
-    let availableFigures = figures.filter(f => !playedFigures.has(f.name));
-    
-    // If all figures have been played, reset the played list
-    if (availableFigures.length === 0) {
-      setPlayedFigures(new Set());
-      availableFigures = figures;
-    }
-    
-    const answer = pickRandom(availableFigures);
-    
-    setPlayedFigures(prev => {
-      const next = new Set(prev);
+    setPlayedFigures(prevPlayed => {
+      let availableFigures = figures.filter(f => !prevPlayed.has(f.name));
+      
+      // If all figures have been played, reset the played list
+      if (availableFigures.length === 0) {
+        availableFigures = figures;
+        const answer = pickRandom(availableFigures);
+        const next = new Set<string>();
+        next.add(answer.name);
+        
+        const shuffledHints = [...answer.hints].sort(() => Math.random() - 0.5);
+        setState({
+          answer,
+          revealedHints: [shuffledHints[0]],
+          remainingHints: shuffledHints.slice(1),
+          guessHistory: [],
+          status: 'playing',
+        });
+        
+        return next;
+      }
+      
+      const answer = pickRandom(availableFigures);
+      const next = new Set(prevPlayed);
       next.add(answer.name);
+      
+      const shuffledHints = [...answer.hints].sort(() => Math.random() - 0.5);
+      setState({
+        answer,
+        revealedHints: [shuffledHints[0]],
+        remainingHints: shuffledHints.slice(1),
+        guessHistory: [],
+        status: 'playing',
+      });
+      
       return next;
     });
-    
-    // Shuffle hints to present them in random order
-    const shuffledHints = [...answer.hints].sort(() => Math.random() - 0.5);
-    
-    setState({
-      answer,
-      revealedHints: [shuffledHints[0]],
-      remainingHints: shuffledHints.slice(1),
-      guessHistory: [],
-      status: 'playing',
-    });
-  }, [playedFigures]);
+  }, []);
 
   useEffect(() => {
     initGame();
@@ -56,6 +67,10 @@ export function useGuessFigure() {
     
     const cleanGuess = guess.trim();
     if (!cleanGuess) return;
+
+    if (state.guessHistory.includes(cleanGuess)) {
+      return;
+    }
 
     const newHistory = [...state.guessHistory, cleanGuess];
     

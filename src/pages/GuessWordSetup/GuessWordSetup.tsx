@@ -5,10 +5,11 @@ import styles from './GuessWordSetup.module.css';
 export function GuessWordSetup() {
   const [grade, setGrade] = useState(3);
   const [attempts, setAttempts] = useState(5);
+  const [enableHint, setEnableHint] = useState(false);
   const navigate = useNavigate();
 
   const handleStart = () => {
-    navigate('/guess-word/play', { state: { grade, attempts } });
+    navigate('/guess-word/play', { state: { grade, attempts, enableHint } });
   };
 
   return (
@@ -43,6 +44,25 @@ export function GuessWordSetup() {
               {a} 次
             </button>
           ))}
+        </div>
+      </div>
+
+      <div className={styles.section}>
+        <h3>开启提示</h3>
+        <p className={styles.desc}>每次猜测前随机提示一个单词，不计入次数</p>
+        <div className={styles.grid}>
+          <button
+            className={`${styles.optionBtn} ${enableHint ? styles.selected : ''}`}
+            onClick={() => setEnableHint(true)}
+          >
+            是
+          </button>
+          <button
+            className={`${styles.optionBtn} ${!enableHint ? styles.selected : ''}`}
+            onClick={() => setEnableHint(false)}
+          >
+            否
+          </button>
         </div>
       </div>
 

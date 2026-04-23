@@ -16,6 +16,7 @@ export type GameStatus = 'playing' | 'won' | 'lost' | 'skipped';
 
 export interface GuessWordState {
   answer: Word | null;
+  hintWord?: string | null;
   guesses: string[];
   maxAttempts: number;
   grade: number;

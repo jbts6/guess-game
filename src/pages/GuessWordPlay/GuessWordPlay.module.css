@@ -39,11 +39,50 @@
   gap: 2rem;
 }
 
+.rulesPanel {
+  background: #f8fafc;
+  padding: 1rem;
+  border-radius: 12px;
+  border-left: 4px solid #3b82f6;
+  font-size: 0.95rem;
+  color: #4b5563;
+}
+
+.rulesPanel strong {
+  color: #1e293b;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.rulesPanel p {
+  margin: 0;
+  line-height: 1.5;
+}
+
 .board {
   display: flex;
   flex-direction: column;
   gap: 10px;
   align-items: center;
+}
+
+.hintRowContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background: #f8fafc;
+  border-radius: 12px;
+  border: 1px dashed #cbd5e1;
+  width: 100%;
+}
+
+.hintLabel {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #64748b;
+  margin-bottom: 0.5rem;
 }
 
 .currentRow, .emptyRow {

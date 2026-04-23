@@ -1,10 +1,14 @@
+import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useStats } from '../../hooks/useStats';
 import styles from './Stats.module.css';
 
+type GameType = 'all' | 'word' | 'figure';
+
 export function Stats() {
   const { stats } = useStats();
   const navigate = useNavigate();
+  const [activeTab, setActiveTab] = useState<GameType>('all');
 
   const totalWinRate = stats.totalGames > 0 
     ? Math.round(((stats.wordWins + stats.figureWins) / stats.totalGames) * 100) 
@@ -17,6 +21,11 @@ export function Stats() {
   const figureWinRate = stats.figureGames > 0 
     ? Math.round((stats.figureWins / stats.figureGames) * 100) 
     : 0;
+
+  const filteredHistory = stats.history.filter(record => {
+    if (activeTab === 'all') return true;
+    return record.type === activeTab;
+  });
 
   return (
     <div className={styles.stats}>
@@ -80,10 +89,33 @@ export function Stats() {
       </div>
 
       <div className={styles.historySection}>
-        <h3>🕰️ 最近记录</h3>
-        {stats.history.length > 0 ? (
+        <div className={styles.historyHeader}>
+          <h3>🕰️ 最近记录</h3>
+          <div className={styles.tabs}>
+            <button 
+              className={`${styles.tabBtn} ${activeTab === 'all' ? styles.activeTab : ''}`}
+              onClick={() => setActiveTab('all')}
+            >
+              全部记录
+            </button>
+            <button 
+              className={`${styles.tabBtn} ${activeTab === 'word' ? styles.activeTab : ''}`}
+              onClick={() => setActiveTab('word')}
+            >
+              🔤 猜单词
+            </button>
+            <button 
+              className={`${styles.tabBtn} ${activeTab === 'figure' ? styles.activeTab : ''}`}
+              onClick={() => setActiveTab('figure')}
+            >
+              📜 猜历史人物
+            </button>
+          </div>
+        </div>
+        
+        {filteredHistory.length > 0 ? (
           <ul className={styles.historyList}>
-            {stats.history.slice(0, 10).map((record, i) => (
+            {filteredHistory.slice(0, 10).map((record, i) => (
               <li key={i} className={styles.historyItem}>
                 <div className={styles.historyMain}>
                   <span className={styles.historyType}>

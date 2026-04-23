@@ -10,9 +10,9 @@ import styles from './GuessWordPlay.module.css';
 export function GuessWordPlay() {
   const location = useLocation();
   const navigate = useNavigate();
-  const { grade, attempts } = location.state || { grade: 3, attempts: 5 };
+  const { grade, attempts, enableHint } = location.state || { grade: 3, attempts: 5, enableHint: false };
   
-  const { state, submitGuess, skipGame, initGame, clearError } = useGuessWord(grade, attempts);
+  const { state, submitGuess, skipGame, initGame, clearError } = useGuessWord(grade, attempts, enableHint);
   const { recordGame } = useStats();
   const [inputValue, setInputValue] = useState('');
 
@@ -57,7 +57,18 @@ export function GuessWordPlay() {
 
       {state.status === 'playing' ? (
         <div className={styles.gameArea}>
+          <div className={styles.rulesPanel}>
+            <strong>规则说明：</strong>
+            <p>输入与提示词长度相同的单词。绿色字母表示位置正确，红色字母表示位置错误。重复猜测的单词不计入次数。</p>
+          </div>
           <div className={styles.board}>
+            {state.hintWord && (
+              <div className={styles.hintRowContainer}>
+                <div className={styles.hintLabel}>💡 提示词</div>
+                <WordRow letters={matchWord(state.hintWord, state.answer!.word)} />
+              </div>
+            )}
+            
             {state.guesses.map((guess, i) => (
               <WordRow key={i} letters={matchWord(guess, state.answer!.word)} />
             ))}

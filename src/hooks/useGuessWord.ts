@@ -2,9 +2,10 @@ import { useState, useEffect, useCallback } from 'react';
 import type { Word, GuessWordState, GameStatus } from '../types';
 import { loadWordsUpToGrade, pickRandom } from '../utils/wordMatcher';
 
-export function useGuessWord(grade: number, maxAttempts: number) {
+export function useGuessWord(grade: number, maxAttempts: number, enableHint: boolean = false) {
   const [state, setState] = useState<GuessWordState>({
     answer: null,
+    hintWord: null,
     guesses: [],
     maxAttempts,
     grade,
@@ -17,35 +18,66 @@ export function useGuessWord(grade: number, maxAttempts: number) {
   const initGame = useCallback(() => {
     try {
       const words = loadWordsUpToGrade(grade);
-      let availableWords = words.filter(w => !playedWords.has(w.word));
-      
-      // If all words have been played, reset the played list
-      if (availableWords.length === 0) {
-        setPlayedWords(new Set());
-        availableWords = words;
-      }
-      
-      const answer = pickRandom(availableWords);
-      
-      setPlayedWords(prev => {
-        const next = new Set(prev);
+      setPlayedWords(prevPlayed => {
+        let availableWords = words.filter(w => !prevPlayed.has(w.word));
+        
+        // If all words have been played, reset the played list
+        if (availableWords.length === 0) {
+          availableWords = words;
+          const answer = pickRandom(availableWords);
+          const next = new Set<string>();
+          next.add(answer.word);
+          
+          let hintWord = null;
+          if (enableHint) {
+            const sameLengthWords = words.filter(w => w.word.length === answer.word.length && w.word !== answer.word);
+            if (sameLengthWords.length > 0) {
+              hintWord = pickRandom(sameLengthWords).word.toLowerCase();
+            }
+          }
+          
+          setState({
+            answer,
+            hintWord,
+            guesses: [],
+            maxAttempts,
+            grade,
+            status: 'playing',
+            error: null,
+          });
+          
+          return next;
+        }
+        
+        const answer = pickRandom(availableWords);
+        const next = new Set(prevPlayed);
         next.add(answer.word);
+        
+        let hintWord = null;
+        if (enableHint) {
+          const sameLengthWords = words.filter(w => w.word.length === answer.word.length && w.word !== answer.word);
+          if (sameLengthWords.length > 0) {
+            hintWord = pickRandom(sameLengthWords).word.toLowerCase();
+          }
+        }
+        
+        setState({
+          answer,
+          hintWord,
+          guesses: [],
+          maxAttempts,
+          grade,
+          status: 'playing',
+          error: null,
+        });
+        
         return next;
-      });
-
-      setState({
-        answer,
-        guesses: [],
-        maxAttempts,
-        grade,
-        status: 'playing',
-        error: null,
       });
     } catch (e) {
       console.error(e);
       setState(prev => ({ ...prev, error: 'Failed to load words' }));
     }
-  }, [grade, maxAttempts, playedWords]);
+  }, [grade, maxAttempts, enableHint]);
 
   useEffect(() => {
     initGame();
@@ -61,10 +93,8 @@ export function useGuessWord(grade: number, maxAttempts: number) {
       return;
     }
 
-    const words = loadWordsUpToGrade(grade);
-    const isValidWord = words.some(w => w.word.toLowerCase() === cleanGuess);
-    if (!isValidWord) {
-      setState(prev => ({ ...prev, error: 'Not in word list' }));
+    if (state.guesses.includes(cleanGuess)) {
+      setState(prev => ({ ...prev, error: '这个单词已经猜过啦' }));
       return;
     }
 

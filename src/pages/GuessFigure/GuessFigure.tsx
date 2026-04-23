@@ -9,6 +9,7 @@ export function GuessFigure() {
   const { state, submitGuess, skipGame, initGame } = useGuessFigure();
   const { recordGame } = useStats();
   const [inputValue, setInputValue] = useState('');
+  const [showAllHints, setShowAllHints] = useState(false);
 
   useEffect(() => {
     if (state.status === 'won' || state.status === 'lost') {
@@ -44,6 +45,10 @@ export function GuessFigure() {
 
       {state.status === 'playing' ? (
         <div className={styles.gameArea}>
+          <div className={styles.rulesPanel}>
+            <strong>规则说明：</strong>
+            <p>根据给出的线索猜测历史人物。猜错会揭示下一条线索。重复猜测的内容不计入记录。</p>
+          </div>
           <div className={styles.hintContainer}>
             <HintCard 
               hint={state.revealedHints[state.revealedHints.length - 1]} 
@@ -52,18 +57,23 @@ export function GuessFigure() {
             />
           </div>
 
-          <div className={styles.history}>
-            <h3>猜测记录：</h3>
-            <div className={styles.tags}>
-              {state.guessHistory.length > 0 ? (
-                state.guessHistory.map((guess, i) => (
-                  <span key={i} className={styles.wrongTag}>❌ {guess}</span>
-                ))
-              ) : (
-                <span className={styles.emptyText}>暂无记录</span>
-              )}
+          {state.guessHistory.length > 0 && (
+            <div className={styles.history}>
+              <h3>往期线索与猜测：</h3>
+              <div className={styles.historyList}>
+                {state.guessHistory.map((guess, i) => (
+                  <div key={i} className={styles.historyItem}>
+                    <div className={styles.historyHint}>
+                      <span className={styles.hintIndex}>{i + 1}.</span> {state.revealedHints[i]}
+                    </div>
+                    <div className={styles.historyGuess}>
+                      <span className={styles.wrongTag}>❌ {guess}</span>
+                    </div>
+                  </div>
+                ))}
+              </div>
             </div>
-          </div>
+          )}
 
           <form onSubmit={handleSubmit} className={styles.inputArea}>
             <div className={styles.inputGroup}>
@@ -95,9 +105,29 @@ export function GuessFigure() {
                 <strong>📜 详细介绍：</strong>
                 <p>{state.answer.detail}</p>
               </div>
+              <div className={styles.hintsSection}>
+                <button 
+                  className={styles.toggleHintsBtn} 
+                  onClick={() => setShowAllHints(!showAllHints)}
+                >
+                  {showAllHints ? '收起提示 ⬆️' : '查看所有提示 ⬇️'}
+                </button>
+                {showAllHints && (
+                  <ul className={styles.allHintsList}>
+                    {state.answer.hints.map((hint, i) => (
+                      <li key={i}>
+                        <span className={styles.hintNumber}>{i + 1}.</span> {hint}
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </div>
             </div>
           }
-          onRetry={initGame}
+          onRetry={() => {
+            setShowAllHints(false);
+            initGame();
+          }}
         />
       )}
     </div>

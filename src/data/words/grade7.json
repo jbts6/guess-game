@@ -1,272 +1,254 @@
 [
   {
     "word": "build",
-    "translation": "这是build的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 建造",
+    "usage": "用作动词，构筑。",
     "examples": [
-      "This is an example for build.",
-      "He likes build."
+      "Build a house.",
+      "They build bridges."
     ]
   },
   {
     "word": "cloud",
-    "translation": "这是cloud的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 云",
+    "usage": "用作名词，天空中的水汽。",
     "examples": [
-      "This is an example for cloud.",
-      "He likes cloud."
+      "Look at the white cloud.",
+      "The sky is full of clouds."
     ]
   },
   {
     "word": "empty",
-    "translation": "这是empty的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "adj. 空的",
+    "usage": "用作形容词，没有东西的。",
     "examples": [
-      "This is an example for empty.",
-      "He likes empty."
+      "The box is empty.",
+      "An empty room."
     ]
   },
   {
     "word": "enjoy",
-    "translation": "这是enjoy的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 享受",
+    "usage": "用作动词，喜爱。",
     "examples": [
-      "This is an example for enjoy.",
-      "He likes enjoy."
+      "Enjoy your meal.",
+      "I enjoy reading."
     ]
   },
   {
     "word": "floor",
-    "translation": "这是floor的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 地板",
+    "usage": "用作名词，室内的地面。",
     "examples": [
-      "This is an example for floor.",
-      "He likes floor."
+      "Sweep the floor.",
+      "My room is on the second floor."
     ]
   },
   {
     "word": "grow",
-    "translation": "这是grow的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 生长",
+    "usage": "用作动词，发育或种植。",
     "examples": [
-      "This is an example for grow.",
-      "He likes grow."
+      "Plants need water to grow.",
+      "He has grown tall."
     ]
   },
   {
     "word": "hello",
-    "translation": "这是hello的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "int. 你好",
+    "usage": "用作感叹词，打招呼。",
     "examples": [
-      "This is an example for hello.",
-      "He likes hello."
-    ]
-  },
-  {
-    "word": "idea",
-    "translation": "这是idea的翻译",
-    "usage": "作名词时指...，作动词时指...",
-    "examples": [
-      "This is an example for idea.",
-      "He likes idea."
+      "Hello, how are you?",
+      "Say hello to him."
     ]
   },
   {
     "word": "kick",
-    "translation": "这是kick的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 踢",
+    "usage": "用作动词，用脚打。",
     "examples": [
-      "This is an example for kick.",
-      "He likes kick."
+      "Kick the ball.",
+      "He gave it a hard kick."
     ]
   },
   {
     "word": "late",
-    "translation": "这是late的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "adj. 晚的",
+    "usage": "用作形容词，迟到。",
     "examples": [
-      "This is an example for late.",
-      "He likes late."
+      "Hurry, we are late.",
+      "It is getting late."
     ]
   },
   {
     "word": "many",
-    "translation": "这是many的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "adj. 许多的",
+    "usage": "用作形容词，数量多。",
     "examples": [
-      "This is an example for many.",
-      "He likes many."
+      "I have many friends.",
+      "How many do you need?"
     ]
   },
   {
     "word": "near",
-    "translation": "这是near的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "prep. 在...附近",
+    "usage": "用作介词，距离近。",
     "examples": [
-      "This is an example for near.",
-      "He likes near."
+      "My house is near the park.",
+      "Come near me."
     ]
   },
   {
     "word": "next",
-    "translation": "这是next的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "adj. 下一个的",
+    "usage": "用作形容词，紧接的。",
     "examples": [
-      "This is an example for next.",
-      "He likes next."
+      "See you next time.",
+      "The next station."
     ]
   },
   {
     "word": "page",
-    "translation": "这是page的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 页",
+    "usage": "用作名词，书本的一面。",
     "examples": [
-      "This is an example for page.",
-      "He likes page."
+      "Turn to page ten.",
+      "Read the next page."
     ]
   },
   {
     "word": "plant",
-    "translation": "这是plant的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 植物",
+    "usage": "用作名词，草木。",
     "examples": [
-      "This is an example for plant.",
-      "He likes plant."
+      "Water the plant.",
+      "We plant trees in spring."
     ]
   },
   {
     "word": "reason",
-    "translation": "这是reason的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 理由",
+    "usage": "用作名词，原因。",
     "examples": [
-      "This is an example for reason.",
-      "He likes reason."
+      "Give me a reason.",
+      "That is the reason why."
     ]
   },
   {
     "word": "road",
-    "translation": "这是road的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 道路",
+    "usage": "用作名词，供通行的路。",
     "examples": [
-      "This is an example for road.",
-      "He likes road."
+      "Drive on the road.",
+      "A long road ahead."
     ]
   },
   {
     "word": "smile",
-    "translation": "这是smile的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 微笑",
+    "usage": "用作动词，脸部露出笑容。",
     "examples": [
-      "This is an example for smile.",
-      "He likes smile."
+      "She smiled at me.",
+      "A friendly smile."
     ]
   },
   {
     "word": "thank",
-    "translation": "这是thank的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 感谢",
+    "usage": "用作动词，表达感激。",
     "examples": [
-      "This is an example for thank.",
-      "He likes thank."
+      "Thank you very much.",
+      "We thank him for his help."
     ]
   },
   {
     "word": "usual",
-    "translation": "这是usual的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "adj. 通常的",
+    "usage": "用作形容词，惯常的。",
     "examples": [
-      "This is an example for usual.",
-      "He likes usual."
+      "As usual, he is late.",
+      "The usual time."
     ]
   },
   {
     "word": "wait",
-    "translation": "这是wait的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 等待",
+    "usage": "用作动词，期盼。",
     "examples": [
-      "This is an example for wait.",
-      "He likes wait."
+      "Wait for me.",
+      "I cannot wait anymore."
     ]
   },
   {
     "word": "white",
-    "translation": "这是white的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "adj. 白色的",
+    "usage": "用作形容词，表示颜色。",
     "examples": [
-      "This is an example for white.",
-      "He likes white."
+      "A white shirt.",
+      "Snow is white."
     ]
   },
   {
     "word": "youth",
-    "translation": "这是youth的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 青春",
+    "usage": "用作名词，年轻时期。",
     "examples": [
-      "This is an example for youth.",
-      "He likes youth."
+      "The youth of today.",
+      "He spent his youth there."
     ]
   },
   {
     "word": "after",
-    "translation": "这是after的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "prep. 在...之后",
+    "usage": "用作介词，时间或顺序在后。",
     "examples": [
-      "This is an example for after.",
-      "He likes after."
+      "After dinner.",
+      "Day after day."
     ]
   },
   {
     "word": "body",
-    "translation": "这是body的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 身体",
+    "usage": "用作名词，躯体。",
     "examples": [
-      "This is an example for body.",
-      "He likes body."
+      "Keep your body healthy.",
+      "The human body."
     ]
   },
   {
     "word": "crowd",
-    "translation": "这是crowd的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 人群",
+    "usage": "用作名词，聚集的人。",
     "examples": [
-      "This is an example for crowd.",
-      "He likes crowd."
-    ]
-  },
-  {
-    "word": "drink",
-    "translation": "这是drink的翻译",
-    "usage": "作名词时指...，作动词时指...",
-    "examples": [
-      "This is an example for drink.",
-      "He likes drink."
+      "A large crowd.",
+      "Lost in the crowd."
     ]
   },
   {
     "word": "exact",
-    "translation": "这是exact的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "adj. 准确的",
+    "usage": "用作形容词，精确无误。",
     "examples": [
-      "This is an example for exact.",
-      "He likes exact."
+      "The exact time.",
+      "Be exact in your answer."
     ]
   },
   {
     "word": "final",
-    "translation": "这是final的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "adj. 最终的",
+    "usage": "用作形容词，最后的。",
     "examples": [
-      "This is an example for final.",
-      "He likes final."
+      "The final exam.",
+      "My final answer."
     ]
   },
   {
     "word": "grand",
-    "translation": "这是grand的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "adj. 宏伟的",
+    "usage": "用作形容词，盛大的。",
     "examples": [
-      "This is an example for grand.",
-      "He likes grand."
+      "A grand building.",
+      "The grand opening."
     ]
   }
 ]

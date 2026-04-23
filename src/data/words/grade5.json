@@ -1,272 +1,272 @@
 [
   {
     "word": "bread",
-    "translation": "这是bread的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 面包",
+    "usage": "用作名词，烘焙食品。",
     "examples": [
-      "This is an example for bread.",
-      "He likes bread."
+      "I eat bread for breakfast.",
+      "Buy some fresh bread."
     ]
   },
   {
     "word": "clear",
-    "translation": "这是clear的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "adj. 清晰的",
+    "usage": "用作形容词，明白的。",
     "examples": [
-      "This is an example for clear.",
-      "He likes clear."
+      "The water is clear.",
+      "Make your answer clear."
     ]
   },
   {
     "word": "drive",
-    "translation": "这是drive的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 驾驶",
+    "usage": "用作动词，操纵车辆。",
     "examples": [
-      "This is an example for drive.",
-      "He likes drive."
+      "He drives a truck.",
+      "Let us drive to the beach."
     ]
   },
   {
     "word": "earth",
-    "translation": "这是earth的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 地球",
+    "usage": "用作名词，人类居住的星球。",
     "examples": [
-      "This is an example for earth.",
-      "He likes earth."
+      "The earth is round.",
+      "Protect our earth."
     ]
   },
   {
     "word": "find",
-    "translation": "这是find的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 找到",
+    "usage": "用作动词，发现某物。",
     "examples": [
-      "This is an example for find.",
-      "He likes find."
+      "I cannot find my keys.",
+      "Did you find it?"
     ]
   },
   {
     "word": "green",
-    "translation": "这是green的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "adj. 绿色的",
+    "usage": "用作形容词，表示颜色。",
     "examples": [
-      "This is an example for green.",
-      "He likes green."
+      "The grass is green.",
+      "She has a green bag."
     ]
   },
   {
     "word": "heart",
-    "translation": "这是heart的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 心",
+    "usage": "用作名词，人体器官或中心。",
     "examples": [
-      "This is an example for heart.",
-      "He likes heart."
+      "My heart beats fast.",
+      "He has a kind heart."
     ]
   },
   {
     "word": "iron",
-    "translation": "这是iron的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 铁",
+    "usage": "用作名词，一种金属。",
     "examples": [
-      "This is an example for iron.",
-      "He likes iron."
+      "The gate is made of iron.",
+      "Strike while the iron is hot."
     ]
   },
   {
     "word": "just",
-    "translation": "这是just的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "adv. 仅仅，刚刚",
+    "usage": "用作副词，强调不多或时间近。",
     "examples": [
-      "This is an example for just.",
-      "He likes just."
+      "I just arrived.",
+      "It is just a game."
     ]
   },
   {
     "word": "know",
-    "translation": "这是know的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 知道",
+    "usage": "用作动词，了解事实。",
     "examples": [
-      "This is an example for know.",
-      "He likes know."
+      "I do not know him.",
+      "Do you know the answer?"
     ]
   },
   {
     "word": "look",
-    "translation": "这是look的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 看",
+    "usage": "用作动词，注视。",
     "examples": [
-      "This is an example for look.",
-      "He likes look."
+      "Look at the picture.",
+      "She looks tired."
     ]
   },
   {
     "word": "must",
-    "translation": "这是must的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 必须",
+    "usage": "用作情态动词，表示义务。",
     "examples": [
-      "This is an example for must.",
-      "He likes must."
+      "You must go now.",
+      "I must finish this."
     ]
   },
   {
     "word": "never",
-    "translation": "这是never的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "adv. 从不",
+    "usage": "用作副词，表示否定。",
     "examples": [
-      "This is an example for never.",
-      "He likes never."
+      "I never lie.",
+      "Never give up."
     ]
   },
   {
     "word": "other",
-    "translation": "这是other的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "adj. 其他的",
+    "usage": "用作形容词，指另外的。",
     "examples": [
-      "This is an example for other.",
-      "He likes other."
+      "Show me the other one.",
+      "Some boys like it, others do not."
     ]
   },
   {
     "word": "point",
-    "translation": "这是point的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 指出",
+    "usage": "用作动词，指明方向。",
     "examples": [
-      "This is an example for point.",
-      "He likes point."
+      "Point to the door.",
+      "He made a good point."
     ]
   },
   {
     "word": "ready",
-    "translation": "这是ready的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "adj. 准备好的",
+    "usage": "用作形容词，状态完成。",
     "examples": [
-      "This is an example for ready.",
-      "He likes ready."
+      "Are you ready?",
+      "Dinner is ready."
     ]
   },
   {
     "word": "right",
-    "translation": "这是right的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "adj. 正确的",
+    "usage": "用作形容词，无误的。",
     "examples": [
-      "This is an example for right.",
-      "He likes right."
+      "That is the right answer.",
+      "Turn right here."
     ]
   },
   {
     "word": "sleep",
-    "translation": "这是sleep的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 睡觉",
+    "usage": "用作动词，进入睡眠状态。",
     "examples": [
-      "This is an example for sleep.",
-      "He likes sleep."
+      "I need to sleep.",
+      "He sleeps deeply."
     ]
   },
   {
     "word": "teach",
-    "translation": "这是teach的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 教",
+    "usage": "用作动词，传授知识。",
     "examples": [
-      "This is an example for teach.",
-      "He likes teach."
+      "Can you teach me?",
+      "She teaches English."
     ]
   },
   {
     "word": "under",
-    "translation": "这是under的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "prep. 在...下面",
+    "usage": "用作介词，表示位置。",
     "examples": [
-      "This is an example for under.",
-      "He likes under."
+      "The cat is under the table.",
+      "Look under the bed."
     ]
   },
   {
     "word": "visit",
-    "translation": "这是visit的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 参观",
+    "usage": "用作动词，拜访。",
     "examples": [
-      "This is an example for visit.",
-      "He likes visit."
+      "I will visit my grandma.",
+      "Come and visit us."
     ]
   },
   {
     "word": "watch",
-    "translation": "这是watch的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 观看",
+    "usage": "用作动词，注意看。",
     "examples": [
-      "This is an example for watch.",
-      "He likes watch."
+      "Watch out!",
+      "Let us watch a movie."
     ]
   },
   {
     "word": "young",
-    "translation": "这是young的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "adj. 年轻的",
+    "usage": "用作形容词，年龄小。",
     "examples": [
-      "This is an example for young.",
-      "He likes young."
+      "He is a young man.",
+      "The tree is still young."
     ]
   },
   {
     "word": "about",
-    "translation": "这是about的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "prep. 关于",
+    "usage": "用作介词，涉及。",
     "examples": [
-      "This is an example for about.",
-      "He likes about."
+      "Tell me about it.",
+      "It is about time."
     ]
   },
   {
     "word": "board",
-    "translation": "这是board的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 木板",
+    "usage": "用作名词，平板。",
     "examples": [
-      "This is an example for board.",
-      "He likes board."
+      "Write it on the board.",
+      "Cut the board in half."
     ]
   },
   {
     "word": "color",
-    "translation": "这是color的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 颜色",
+    "usage": "用作名词，色彩。",
     "examples": [
-      "This is an example for color.",
-      "He likes color."
+      "What color is it?",
+      "I like this color."
     ]
   },
   {
     "word": "dream",
-    "translation": "这是dream的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 梦",
+    "usage": "用作名词，睡眠中的幻象。",
     "examples": [
-      "This is an example for dream.",
-      "He likes dream."
+      "I had a bad dream.",
+      "Follow your dreams."
     ]
   },
   {
     "word": "ever",
-    "translation": "这是ever的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "adv. 曾经",
+    "usage": "用作副词，在任何时候。",
     "examples": [
-      "This is an example for ever.",
-      "He likes ever."
+      "Have you ever been there?",
+      "Nothing ever happens."
     ]
   },
   {
     "word": "field",
-    "translation": "这是field的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 田地",
+    "usage": "用作名词，空旷的场地。",
     "examples": [
-      "This is an example for field.",
-      "He likes field."
+      "The cows are in the field.",
+      "It is a football field."
     ]
   },
   {
     "word": "glass",
-    "translation": "这是glass的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 玻璃",
+    "usage": "用作名词，透明材料。",
     "examples": [
-      "This is an example for glass.",
-      "He likes glass."
+      "The window is made of glass.",
+      "I need a glass of water."
     ]
   }
 ]

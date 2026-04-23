@@ -1,272 +1,236 @@
 [
   {
     "word": "catch",
-    "translation": "这是catch的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 抓住",
+    "usage": "用作动词，捕捉。",
     "examples": [
-      "This is an example for catch.",
-      "He likes catch."
+      "Catch the ball.",
+      "Catch a cold."
     ]
   },
   {
     "word": "cover",
-    "translation": "这是cover的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 覆盖",
+    "usage": "用作动词，遮盖。",
     "examples": [
-      "This is an example for cover.",
-      "He likes cover."
+      "Cover the pot.",
+      "Read from cover to cover."
     ]
   },
   {
     "word": "engine",
-    "translation": "这是engine的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 引擎",
+    "usage": "用作名词，发动机。",
     "examples": [
-      "This is an example for engine.",
-      "He likes engine."
+      "Start the engine.",
+      "A powerful engine."
     ]
   },
   {
     "word": "event",
-    "translation": "这是event的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 事件",
+    "usage": "用作名词，发生的事。",
     "examples": [
-      "This is an example for event.",
-      "He likes event."
+      "A major event.",
+      "In the event of fire."
     ]
   },
   {
     "word": "force",
-    "translation": "这是force的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 力量",
+    "usage": "用作名词，力气。",
     "examples": [
-      "This is an example for force.",
-      "He likes force."
+      "Use force.",
+      "May the force be with you."
     ]
   },
   {
     "word": "guest",
-    "translation": "这是guest的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 客人",
+    "usage": "用作名词，宾客。",
     "examples": [
-      "This is an example for guest.",
-      "He likes guest."
+      "Be my guest.",
+      "A special guest."
     ]
   },
   {
     "word": "high",
-    "translation": "这是high的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "adj. 高的",
+    "usage": "用作形容词，高度大。",
     "examples": [
-      "This is an example for high.",
-      "He likes high."
+      "A high mountain.",
+      "Jump high."
     ]
   },
   {
     "word": "issue",
-    "translation": "这是issue的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 问题",
+    "usage": "用作名词，议题。",
     "examples": [
-      "This is an example for issue.",
-      "He likes issue."
+      "A complex issue.",
+      "The latest issue."
     ]
   },
   {
     "word": "king",
-    "translation": "这是king的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 国王",
+    "usage": "用作名词，男性君主。",
     "examples": [
-      "This is an example for king.",
-      "He likes king."
+      "The king ruled the land.",
+      "A wise king."
     ]
   },
   {
     "word": "learn",
-    "translation": "这是learn的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 学习",
+    "usage": "用作动词，获取知识。",
     "examples": [
-      "This is an example for learn.",
-      "He likes learn."
+      "Learn English.",
+      "Learn from mistakes."
     ]
   },
   {
     "word": "mean",
-    "translation": "这是mean的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 意思是",
+    "usage": "用作动词，意味着。",
     "examples": [
-      "This is an example for mean.",
-      "He likes mean."
-    ]
-  },
-  {
-    "word": "never",
-    "translation": "这是never的翻译",
-    "usage": "作名词时指...，作动词时指...",
-    "examples": [
-      "This is an example for never.",
-      "He likes never."
+      "What do you mean?",
+      "I mean it."
     ]
   },
   {
     "word": "noise",
-    "translation": "这是noise的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 噪音",
+    "usage": "用作名词，吵闹声。",
     "examples": [
-      "This is an example for noise.",
-      "He likes noise."
+      "Make a loud noise.",
+      "Stop that noise."
     ]
   },
   {
     "word": "party",
-    "translation": "这是party的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 聚会",
+    "usage": "用作名词，派对。",
     "examples": [
-      "This is an example for party.",
-      "He likes party."
+      "A birthday party.",
+      "Let us have a party."
     ]
   },
   {
     "word": "please",
-    "translation": "这是please的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "adv. 请",
+    "usage": "用作副词，表示客气。",
     "examples": [
-      "This is an example for please.",
-      "He likes please."
+      "Help me, please.",
+      "Yes, please."
     ]
   },
   {
     "word": "region",
-    "translation": "这是region的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 地区",
+    "usage": "用作名词，区域。",
     "examples": [
-      "This is an example for region.",
-      "He likes region."
+      "A dry region.",
+      "The whole region."
     ]
   },
   {
     "word": "roll",
-    "translation": "这是roll的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 滚动",
+    "usage": "用作动词，转动。",
     "examples": [
-      "This is an example for roll.",
-      "He likes roll."
+      "Roll the ball.",
+      "A roll of paper."
     ]
   },
   {
     "word": "south",
-    "translation": "这是south的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 南方",
+    "usage": "用作名词，方位。",
     "examples": [
-      "This is an example for south.",
-      "He likes south."
+      "Go south.",
+      "The south wind."
     ]
   },
   {
     "word": "there",
-    "translation": "这是there的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "adv. 那里",
+    "usage": "用作副词，那个地方。",
     "examples": [
-      "This is an example for there.",
-      "He likes there."
-    ]
-  },
-  {
-    "word": "voice",
-    "translation": "这是voice的翻译",
-    "usage": "作名词时指...，作动词时指...",
-    "examples": [
-      "This is an example for voice.",
-      "He likes voice."
+      "Over there.",
+      "There is a book."
     ]
   },
   {
     "word": "wall",
-    "translation": "这是wall的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 墙",
+    "usage": "用作名词，建筑物的隔断。",
     "examples": [
-      "This is an example for wall.",
-      "He likes wall."
+      "A high wall.",
+      "Paint the wall."
     ]
   },
   {
     "word": "whose",
-    "translation": "这是whose的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "pron. 谁的",
+    "usage": "用作代词，表示所属。",
     "examples": [
-      "This is an example for whose.",
-      "He likes whose."
-    ]
-  },
-  {
-    "word": "youth",
-    "translation": "这是youth的翻译",
-    "usage": "作名词时指...，作动词时指...",
-    "examples": [
-      "This is an example for youth.",
-      "He likes youth."
+      "Whose book is this?",
+      "I know whose it is."
     ]
   },
   {
     "word": "against",
-    "translation": "这是against的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "prep. 反对",
+    "usage": "用作介词，靠着或对抗。",
     "examples": [
-      "This is an example for against.",
-      "He likes against."
-    ]
-  },
-  {
-    "word": "book",
-    "translation": "这是book的翻译",
-    "usage": "作名词时指...，作动词时指...",
-    "examples": [
-      "This is an example for book.",
-      "He likes book."
+      "Fight against them.",
+      "Lean against the wall."
     ]
   },
   {
     "word": "curve",
-    "translation": "这是curve的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 曲线",
+    "usage": "用作名词，弯曲。",
     "examples": [
-      "This is an example for curve.",
-      "He likes curve."
+      "A sharp curve.",
+      "Draw a curve."
     ]
   },
   {
     "word": "drop",
-    "translation": "这是drop的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 落下",
+    "usage": "用作动词，掉下。",
     "examples": [
-      "This is an example for drop.",
-      "He likes drop."
+      "Do not drop it.",
+      "A drop of water."
     ]
   },
   {
     "word": "extra",
-    "translation": "这是extra的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "adj. 额外的",
+    "usage": "用作形容词，附加的。",
     "examples": [
-      "This is an example for extra.",
-      "He likes extra."
+      "Extra time.",
+      "Need extra help."
     ]
   },
   {
     "word": "fixed",
-    "translation": "这是fixed的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "adj. 固定的",
+    "usage": "用作形容词，确定的。",
     "examples": [
-      "This is an example for fixed.",
-      "He likes fixed."
+      "A fixed price.",
+      "Keep it fixed."
     ]
   },
   {
     "word": "grasp",
-    "translation": "这是grasp的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 抓住",
+    "usage": "用作动词，领会。",
     "examples": [
-      "This is an example for grasp.",
-      "He likes grasp."
+      "Grasp the rope.",
+      "Grasp the meaning."
     ]
   }
 ]

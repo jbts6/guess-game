@@ -1,263 +1,254 @@
 [
   {
     "word": "bike",
-    "translation": "这是bike的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 自行车",
+    "usage": "用作名词，两轮交通工具。",
     "examples": [
-      "This is an example for bike.",
-      "He likes bike."
+      "He rode his bike to school.",
+      "I bought a new bike."
     ]
   },
   {
     "word": "cake",
-    "translation": "这是cake的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 蛋糕",
+    "usage": "用作名词，一种甜点。",
     "examples": [
-      "This is an example for cake.",
-      "He likes cake."
+      "She baked a chocolate cake.",
+      "Happy birthday! Here is your cake."
     ]
   },
   {
     "word": "door",
-    "translation": "这是door的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 门",
+    "usage": "用作名词，建筑或房间的入口。",
     "examples": [
-      "This is an example for door.",
-      "He likes door."
+      "Please close the door.",
+      "Someone is knocking on the door."
     ]
   },
   {
     "word": "ear",
-    "translation": "这是ear的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 耳朵",
+    "usage": "用作名词，听觉器官。",
     "examples": [
-      "This is an example for ear.",
-      "He likes ear."
+      "The rabbit has long ears.",
+      "Cover your ears."
     ]
   },
   {
     "word": "foot",
-    "translation": "这是foot的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 脚",
+    "usage": "用作名词，人或动物用来行走的部位。",
     "examples": [
-      "This is an example for foot.",
-      "He likes foot."
+      "My foot hurts.",
+      "He stepped on my foot."
     ]
   },
   {
     "word": "good",
-    "translation": "这是good的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "adj. 好的",
+    "usage": "用作形容词，表示优良、令人满意。",
     "examples": [
-      "This is an example for good.",
-      "He likes good."
+      "Have a good day.",
+      "This is a good book."
     ]
   },
   {
     "word": "head",
-    "translation": "这是head的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 头",
+    "usage": "用作名词，人体最高部位。",
     "examples": [
-      "This is an example for head.",
-      "He likes head."
-    ]
-  },
-  {
-    "word": "jump",
-    "translation": "这是jump的翻译",
-    "usage": "作名词时指...，作动词时指...",
-    "examples": [
-      "This is an example for jump.",
-      "He likes jump."
+      "He nodded his head.",
+      "My head aches."
     ]
   },
   {
     "word": "kiss",
-    "translation": "这是kiss的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 亲吻",
+    "usage": "用作动词，表示喜爱或问候。",
     "examples": [
-      "This is an example for kiss.",
-      "He likes kiss."
+      "She kissed her baby.",
+      "They shared a kiss."
     ]
   },
   {
     "word": "leg",
-    "translation": "这是leg的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 腿",
+    "usage": "用作名词，支撑身体的部位。",
     "examples": [
-      "This is an example for leg.",
-      "He likes leg."
+      "He broke his leg.",
+      "The table has four legs."
     ]
   },
   {
     "word": "moon",
-    "translation": "这是moon的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 月亮",
+    "usage": "用作名词，地球的天然卫星。",
     "examples": [
-      "This is an example for moon.",
-      "He likes moon."
+      "The moon is full tonight.",
+      "Look at the beautiful moon."
     ]
   },
   {
     "word": "name",
-    "translation": "这是name的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 名字",
+    "usage": "用作名词，称呼人或事物的词语。",
     "examples": [
-      "This is an example for name.",
-      "He likes name."
+      "What is your name?",
+      "Write your name here."
     ]
   },
   {
     "word": "open",
-    "translation": "这是open的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 打开",
+    "usage": "用作动词，使开启。",
     "examples": [
-      "This is an example for open.",
-      "He likes open."
+      "Open the window, please.",
+      "The store is open."
     ]
   },
   {
     "word": "pen",
-    "translation": "这是pen的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 钢笔",
+    "usage": "用作名词，书写工具。",
     "examples": [
-      "This is an example for pen.",
-      "He likes pen."
+      "I need a blue pen.",
+      "He wrote it with a pen."
     ]
   },
   {
     "word": "quick",
-    "translation": "这是quick的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "adj. 快的",
+    "usage": "用作形容词，表示迅速。",
     "examples": [
-      "This is an example for quick.",
-      "He likes quick."
+      "Be quick!",
+      "She gave a quick answer."
     ]
   },
   {
     "word": "room",
-    "translation": "这是room的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 房间",
+    "usage": "用作名词，建筑物内的空间。",
     "examples": [
-      "This is an example for room.",
-      "He likes room."
+      "Clean your room.",
+      "This room is too small."
     ]
   },
   {
     "word": "star",
-    "translation": "这是star的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 星星",
+    "usage": "用作名词，夜空中的发光天体。",
     "examples": [
-      "This is an example for star.",
-      "He likes star."
+      "Look at the bright star.",
+      "She drew a star on the paper."
     ]
   },
   {
     "word": "time",
-    "translation": "这是time的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 时间",
+    "usage": "用作名词，表示时刻或期间。",
     "examples": [
-      "This is an example for time.",
-      "He likes time."
+      "What time is it?",
+      "It is time to go."
     ]
   },
   {
     "word": "van",
-    "translation": "这是van的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 面包车",
+    "usage": "用作名词，一种厢式货车。",
     "examples": [
-      "This is an example for van.",
-      "He likes van."
+      "They drove a white van.",
+      "Load the boxes into the van."
     ]
   },
   {
     "word": "water",
-    "translation": "这是water的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 水",
+    "usage": "用作名词，透明的液体。",
     "examples": [
-      "This is an example for water.",
-      "He likes water."
+      "Drink plenty of water.",
+      "The water is cold."
     ]
   },
   {
     "word": "xray",
-    "translation": "这是xray的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. X光",
+    "usage": "用作名词，医学影像技术。",
     "examples": [
-      "This is an example for xray.",
-      "He likes xray."
+      "The doctor took an x-ray.",
+      "The x-ray showed a broken bone."
     ]
   },
   {
     "word": "year",
-    "translation": "这是year的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 年",
+    "usage": "用作名词，时间单位。",
     "examples": [
-      "This is an example for year.",
-      "He likes year."
+      "Happy new year!",
+      "It takes a year to finish."
     ]
   },
   {
     "word": "zoo",
-    "translation": "这是zoo的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 动物园",
+    "usage": "用作名词，展览动物的地方。",
     "examples": [
-      "This is an example for zoo.",
-      "He likes zoo."
+      "We went to the zoo.",
+      "I saw monkeys at the zoo."
     ]
   },
   {
     "word": "bag",
-    "translation": "这是bag的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 袋子",
+    "usage": "用作名词，盛物的容器。",
     "examples": [
-      "This is an example for bag.",
-      "He likes bag."
+      "Put it in the bag.",
+      "She carried a heavy bag."
     ]
   },
   {
     "word": "car",
-    "translation": "这是car的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 汽车",
+    "usage": "用作名词，一种交通工具。",
     "examples": [
-      "This is an example for car.",
-      "He likes car."
+      "He drives a fast car.",
+      "The car is red."
     ]
   },
   {
     "word": "dad",
-    "translation": "这是dad的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 爸爸",
+    "usage": "用作名词，父亲。",
     "examples": [
-      "This is an example for dad.",
-      "He likes dad."
+      "My dad is tall.",
+      "Dad went to work."
     ]
   },
   {
     "word": "eat",
-    "translation": "这是eat的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 吃",
+    "usage": "用作动词，进食。",
     "examples": [
-      "This is an example for eat.",
-      "He likes eat."
+      "Let us eat dinner.",
+      "Do not eat too much candy."
     ]
   },
   {
     "word": "fat",
-    "translation": "这是fat的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "adj. 胖的",
+    "usage": "用作形容词，肥胖的。",
     "examples": [
-      "This is an example for fat.",
-      "He likes fat."
+      "The cat is fat.",
+      "Eating too much makes you fat."
     ]
   },
   {
     "word": "get",
-    "translation": "这是get的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 得到",
+    "usage": "用作动词，获得或到达。",
     "examples": [
-      "This is an example for get.",
-      "He likes get."
+      "Did you get the message?",
+      "Go get your coat."
     ]
   }
 ]

@@ -1,272 +1,236 @@
 [
   {
     "word": "brown",
-    "translation": "这是brown的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "adj. 棕色的",
+    "usage": "用作形容词，表示颜色。",
     "examples": [
-      "This is an example for brown.",
-      "He likes brown."
+      "The bear is brown.",
+      "He has brown eyes."
     ]
   },
   {
     "word": "close",
-    "translation": "这是close的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 关",
+    "usage": "用作动词，闭合。",
     "examples": [
-      "This is an example for close.",
-      "He likes close."
-    ]
-  },
-  {
-    "word": "early",
-    "translation": "这是early的翻译",
-    "usage": "作名词时指...，作动词时指...",
-    "examples": [
-      "This is an example for early.",
-      "He likes early."
+      "Close the door.",
+      "The shop is closed."
     ]
   },
   {
     "word": "eight",
-    "translation": "这是eight的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "num. 八",
+    "usage": "用作数词，数字 8。",
     "examples": [
-      "This is an example for eight.",
-      "He likes eight."
+      "I have eight books.",
+      "He woke up at eight."
     ]
   },
   {
     "word": "first",
-    "translation": "这是first的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "num. 第一",
+    "usage": "用作序数词，首要的。",
     "examples": [
-      "This is an example for first.",
-      "He likes first."
+      "He won first place.",
+      "First, wash your hands."
     ]
   },
   {
     "word": "group",
-    "translation": "这是group的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 组，群",
+    "usage": "用作名词，聚集的人或物。",
     "examples": [
-      "This is an example for group.",
-      "He likes group."
+      "A group of people.",
+      "Work in a group."
     ]
   },
   {
     "word": "heavy",
-    "translation": "这是heavy的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "adj. 重的",
+    "usage": "用作形容词，分量大。",
     "examples": [
-      "This is an example for heavy.",
-      "He likes heavy."
+      "This box is heavy.",
+      "It was a heavy rain."
     ]
   },
   {
     "word": "item",
-    "translation": "这是item的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 项目",
+    "usage": "用作名词，物品或条款。",
     "examples": [
-      "This is an example for item.",
-      "He likes item."
-    ]
-  },
-  {
-    "word": "keep",
-    "translation": "这是keep的翻译",
-    "usage": "作名词时指...，作动词时指...",
-    "examples": [
-      "This is an example for keep.",
-      "He likes keep."
+      "Check each item.",
+      "Buy this item."
     ]
   },
   {
     "word": "large",
-    "translation": "这是large的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "adj. 大的",
+    "usage": "用作形容词，体积或面积大。",
     "examples": [
-      "This is an example for large.",
-      "He likes large."
+      "A large house.",
+      "The shirt is too large."
     ]
   },
   {
     "word": "make",
-    "translation": "这是make的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 制造",
+    "usage": "用作动词，生产或导致。",
     "examples": [
-      "This is an example for make.",
-      "He likes make."
-    ]
-  },
-  {
-    "word": "name",
-    "translation": "这是name的翻译",
-    "usage": "作名词时指...，作动词时指...",
-    "examples": [
-      "This is an example for name.",
-      "He likes name."
+      "Make a cake.",
+      "Do not make a noise."
     ]
   },
   {
     "word": "new",
-    "translation": "这是new的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "adj. 新的",
+    "usage": "用作形容词，没用过的。",
     "examples": [
-      "This is an example for new.",
-      "He likes new."
+      "I bought a new car.",
+      "Happy new year!"
     ]
   },
   {
     "word": "out",
-    "translation": "这是out的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "adv. 在外",
+    "usage": "用作副词，向外。",
     "examples": [
-      "This is an example for out.",
-      "He likes out."
+      "Go out and play.",
+      "The secret is out."
     ]
   },
   {
     "word": "price",
-    "translation": "这是price的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 价格",
+    "usage": "用作名词，物品的价值。",
     "examples": [
-      "This is an example for price.",
-      "He likes price."
+      "What is the price?",
+      "The price is too high."
     ]
   },
   {
     "word": "real",
-    "translation": "这是real的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "adj. 真实的",
+    "usage": "用作形容词，不是假的。",
     "examples": [
-      "This is an example for real.",
-      "He likes real."
+      "Is it a real diamond?",
+      "In real life."
     ]
   },
   {
     "word": "river",
-    "translation": "这是river的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 河流",
+    "usage": "用作名词，天然水道。",
     "examples": [
-      "This is an example for river.",
-      "He likes river."
+      "Swim in the river.",
+      "The river is deep."
     ]
   },
   {
     "word": "small",
-    "translation": "这是small的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "adj. 小的",
+    "usage": "用作形容词，体积不大。",
     "examples": [
-      "This is an example for small.",
-      "He likes small."
+      "A small bird.",
+      "The room is too small."
     ]
   },
   {
     "word": "tell",
-    "translation": "这是tell的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 告诉",
+    "usage": "用作动词，讲述。",
     "examples": [
-      "This is an example for tell.",
-      "He likes tell."
+      "Tell me a story.",
+      "I will tell him."
     ]
   },
   {
     "word": "until",
-    "translation": "这是until的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "prep. 直到",
+    "usage": "用作介词，表示时间限制。",
     "examples": [
-      "This is an example for until.",
-      "He likes until."
+      "Wait until tomorrow.",
+      "Do not stop until you finish."
     ]
   },
   {
     "word": "voice",
-    "translation": "这是voice的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 声音",
+    "usage": "用作名词，人说话或唱歌的声音。",
     "examples": [
-      "This is an example for voice.",
-      "He likes voice."
-    ]
-  },
-  {
-    "word": "water",
-    "translation": "这是water的翻译",
-    "usage": "作名词时指...，作动词时指...",
-    "examples": [
-      "This is an example for water.",
-      "He likes water."
+      "She has a sweet voice.",
+      "Lower your voice."
     ]
   },
   {
     "word": "your",
-    "translation": "这是your的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "pron. 你的",
+    "usage": "用作代词，表示所属。",
     "examples": [
-      "This is an example for your.",
-      "He likes your."
+      "Is this your book?",
+      "Wash your hands."
     ]
   },
   {
     "word": "above",
-    "translation": "这是above的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "prep. 在...上方",
+    "usage": "用作介词，高于。",
     "examples": [
-      "This is an example for above.",
-      "He likes above."
+      "The picture is above the bed.",
+      "Look above you."
     ]
   },
   {
     "word": "boat",
-    "translation": "这是boat的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 船",
+    "usage": "用作名词，水上交通工具。",
     "examples": [
-      "This is an example for boat.",
-      "He likes boat."
+      "Row the boat.",
+      "We rented a small boat."
     ]
   },
   {
     "word": "cross",
-    "translation": "这是cross的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 穿过",
+    "usage": "用作动词，越过。",
     "examples": [
-      "This is an example for cross.",
-      "He likes cross."
+      "Cross the street carefully.",
+      "Mark it with a cross."
     ]
   },
   {
     "word": "dress",
-    "translation": "这是dress的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 连衣裙",
+    "usage": "用作名词，女性服装。",
     "examples": [
-      "This is an example for dress.",
-      "He likes dress."
+      "She wore a red dress.",
+      "Dress warmly."
     ]
   },
   {
     "word": "every",
-    "translation": "这是every的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "adj. 每一个",
+    "usage": "用作形容词，指全体中的各个。",
     "examples": [
-      "This is an example for every.",
-      "He likes every."
+      "Every child gets a toy.",
+      "I run every day."
     ]
   },
   {
     "word": "fight",
-    "translation": "这是fight的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 战斗",
+    "usage": "用作动词，交战。",
     "examples": [
-      "This is an example for fight.",
-      "He likes fight."
+      "They fight for freedom.",
+      "Do not fight with him."
     ]
   },
   {
     "word": "going",
-    "translation": "这是going的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 正在去",
+    "usage": "用作动词，go 的现在分词。",
     "examples": [
-      "This is an example for going.",
-      "He likes going."
+      "I am going home.",
+      "Where are you going?"
     ]
   }
 ]

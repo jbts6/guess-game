@@ -1,272 +1,245 @@
 [
   {
     "word": "carry",
-    "translation": "这是carry的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 携带",
+    "usage": "用作动词，搬运。",
     "examples": [
-      "This is an example for carry.",
-      "He likes carry."
+      "Carry this bag for me.",
+      "He carries a gun."
     ]
   },
   {
     "word": "coast",
-    "translation": "这是coast的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 海岸",
+    "usage": "用作名词，陆地边缘。",
     "examples": [
-      "This is an example for coast.",
-      "He likes coast."
+      "The west coast.",
+      "We drove along the coast."
     ]
   },
   {
     "word": "enemy",
-    "translation": "这是enemy的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 敌人",
+    "usage": "用作名词，敌对者。",
     "examples": [
-      "This is an example for enemy.",
-      "He likes enemy."
+      "Fight the enemy.",
+      "Make no enemies."
     ]
   },
   {
     "word": "enter",
-    "translation": "这是enter的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 进入",
+    "usage": "用作动词，走入。",
     "examples": [
-      "This is an example for enter.",
-      "He likes enter."
+      "Enter the room.",
+      "Please do not enter."
     ]
   },
   {
     "word": "flower",
-    "translation": "这是flower的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 花",
+    "usage": "用作名词，植物的花朵。",
     "examples": [
-      "This is an example for flower.",
-      "He likes flower."
+      "A beautiful flower.",
+      "Water the flowers."
     ]
   },
   {
     "word": "guess",
-    "translation": "这是guess的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 猜测",
+    "usage": "用作动词，推测。",
     "examples": [
-      "This is an example for guess.",
-      "He likes guess."
+      "Guess what I have.",
+      "It is just a guess."
     ]
   },
   {
     "word": "help",
-    "translation": "这是help的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 帮助",
+    "usage": "用作动词，援助。",
     "examples": [
-      "This is an example for help.",
-      "He likes help."
+      "Can you help me?",
+      "Thank you for your help."
     ]
   },
   {
     "word": "image",
-    "translation": "这是image的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 图像",
+    "usage": "用作名词，形象。",
     "examples": [
-      "This is an example for image.",
-      "He likes image."
+      "A clear image.",
+      "Build a good image."
     ]
   },
   {
     "word": "kill",
-    "translation": "这是kill的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 杀死",
+    "usage": "用作动词，致死。",
     "examples": [
-      "This is an example for kill.",
-      "He likes kill."
+      "Do not kill animals.",
+      "The cold will kill the plants."
     ]
   },
   {
     "word": "laugh",
-    "translation": "这是laugh的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 大笑",
+    "usage": "用作动词，发出笑声。",
     "examples": [
-      "This is an example for laugh.",
-      "He likes laugh."
+      "They laugh out loud.",
+      "A hearty laugh."
     ]
   },
   {
     "word": "mark",
-    "translation": "这是mark的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 记号",
+    "usage": "用作名词，标志。",
     "examples": [
-      "This is an example for mark.",
-      "He likes mark."
-    ]
-  },
-  {
-    "word": "need",
-    "translation": "这是need的翻译",
-    "usage": "作名词时指...，作动词时指...",
-    "examples": [
-      "This is an example for need.",
-      "He likes need."
+      "Make a mark here.",
+      "A question mark."
     ]
   },
   {
     "word": "night",
-    "translation": "这是night的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 夜晚",
+    "usage": "用作名词，黑夜。",
     "examples": [
-      "This is an example for night.",
-      "He likes night."
+      "Good night.",
+      "Sleep well at night."
     ]
   },
   {
     "word": "paper",
-    "translation": "这是paper的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 纸",
+    "usage": "用作名词，书写材料。",
     "examples": [
-      "This is an example for paper.",
-      "He likes paper."
+      "Write on the paper.",
+      "A piece of paper."
     ]
   },
   {
     "word": "plate",
-    "translation": "这是plate的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 盘子",
+    "usage": "用作名词，盛食物的器皿。",
     "examples": [
-      "This is an example for plate.",
-      "He likes plate."
+      "A clean plate.",
+      "Put it on my plate."
     ]
   },
   {
     "word": "record",
-    "translation": "这是record的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 记录",
+    "usage": "用作动词，记载。",
     "examples": [
-      "This is an example for record.",
-      "He likes record."
+      "Record the score.",
+      "Set a new record."
     ]
   },
   {
     "word": "rock",
-    "translation": "这是rock的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 岩石",
+    "usage": "用作名词，石头。",
     "examples": [
-      "This is an example for rock.",
-      "He likes rock."
+      "A hard rock.",
+      "Climb the rock."
     ]
   },
   {
     "word": "sound",
-    "translation": "这是sound的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 声音",
+    "usage": "用作名词，声响。",
     "examples": [
-      "This is an example for sound.",
-      "He likes sound."
+      "A loud sound.",
+      "Sound travels fast."
     ]
   },
   {
     "word": "their",
-    "translation": "这是their的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "pron. 他们的",
+    "usage": "用作代词，表示所属。",
     "examples": [
-      "This is an example for their.",
-      "He likes their."
+      "Their house is big.",
+      "It is their turn."
     ]
   },
   {
     "word": "value",
-    "translation": "这是value的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 价值",
+    "usage": "用作名词，有用性。",
     "examples": [
-      "This is an example for value.",
-      "He likes value."
+      "The value of money.",
+      "Value your time."
     ]
   },
   {
     "word": "wake",
-    "translation": "这是wake的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 醒来",
+    "usage": "用作动词，睡醒。",
     "examples": [
-      "This is an example for wake.",
-      "He likes wake."
+      "Wake up early.",
+      "Do not wake him."
     ]
   },
   {
     "word": "whole",
-    "translation": "这是whole的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "adj. 整个的",
+    "usage": "用作形容词，全部。",
     "examples": [
-      "This is an example for whole.",
-      "He likes whole."
+      "The whole world.",
+      "Tell the whole truth."
     ]
   },
   {
     "word": "yours",
-    "translation": "这是yours的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "pron. 你的",
+    "usage": "用作代词，你的东西。",
     "examples": [
-      "This is an example for yours.",
-      "He likes yours."
+      "The book is yours.",
+      "Is this yours?"
     ]
   },
   {
     "word": "again",
-    "translation": "这是again的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "adv. 再一次",
+    "usage": "用作副词，重新。",
     "examples": [
-      "This is an example for again.",
-      "He likes again."
+      "Try again.",
+      "See you again."
     ]
   },
   {
     "word": "bone",
-    "translation": "这是bone的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 骨头",
+    "usage": "用作名词，骨骼。",
     "examples": [
-      "This is an example for bone.",
-      "He likes bone."
+      "A dog chewing a bone.",
+      "Broken bone."
     ]
   },
   {
     "word": "crown",
-    "translation": "这是crown的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 王冠",
+    "usage": "用作名词，国王的帽子。",
     "examples": [
-      "This is an example for crown.",
-      "He likes crown."
-    ]
-  },
-  {
-    "word": "drive",
-    "translation": "这是drive的翻译",
-    "usage": "作名词时指...，作动词时指...",
-    "examples": [
-      "This is an example for drive.",
-      "He likes drive."
+      "The king wears a crown.",
+      "A golden crown."
     ]
   },
   {
     "word": "exist",
-    "translation": "这是exist的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 存在",
+    "usage": "用作动词，实际有。",
     "examples": [
-      "This is an example for exist.",
-      "He likes exist."
-    ]
-  },
-  {
-    "word": "first",
-    "translation": "这是first的翻译",
-    "usage": "作名词时指...，作动词时指...",
-    "examples": [
-      "This is an example for first.",
-      "He likes first."
+      "Do ghosts exist?",
+      "It no longer exists."
     ]
   },
   {
     "word": "grant",
-    "translation": "这是grant的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 授予",
+    "usage": "用作动词，同意给予。",
     "examples": [
-      "This is an example for grant.",
-      "He likes grant."
+      "Grant a wish.",
+      "Take it for granted."
     ]
   }
 ]

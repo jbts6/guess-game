@@ -1,245 +1,245 @@
 [
   {
     "word": "apple",
-    "translation": "这是apple的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 苹果",
+    "usage": "用作名词，指代一种水果。",
     "examples": [
-      "This is an example for apple.",
-      "He likes apple."
+      "I ate an apple today.",
+      "She bought some red apples."
     ]
   },
   {
     "word": "book",
-    "translation": "这是book的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 书，书籍",
+    "usage": "用作名词，指供阅读的印刷品。",
     "examples": [
-      "This is an example for book.",
-      "He likes book."
+      "He is reading a book.",
+      "Put the book on the desk."
     ]
   },
   {
     "word": "cat",
-    "translation": "这是cat的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 猫",
+    "usage": "用作名词，指一种常见的宠物。",
     "examples": [
-      "This is an example for cat.",
-      "He likes cat."
+      "My cat is sleeping.",
+      "The cat caught a mouse."
     ]
   },
   {
     "word": "dog",
-    "translation": "这是dog的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 狗",
+    "usage": "用作名词，指一种常见的家养动物。",
     "examples": [
-      "This is an example for dog.",
-      "He likes dog."
+      "The dog barked loudly.",
+      "He walked his dog in the park."
     ]
   },
   {
     "word": "egg",
-    "translation": "这是egg的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 蛋，鸡蛋",
+    "usage": "用作名词，指鸟类或家禽产的卵。",
     "examples": [
-      "This is an example for egg.",
-      "He likes egg."
+      "I had a boiled egg for breakfast.",
+      "She cracked an egg into the bowl."
     ]
   },
   {
     "word": "fish",
-    "translation": "这是fish的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 鱼",
+    "usage": "用作名词，水生动物。",
     "examples": [
-      "This is an example for fish.",
-      "He likes fish."
+      "They caught a big fish.",
+      "Fish swim in the river."
     ]
   },
   {
     "word": "girl",
-    "translation": "这是girl的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 女孩",
+    "usage": "用作名词，指女性儿童或青少年。",
     "examples": [
-      "This is an example for girl.",
-      "He likes girl."
+      "The little girl is smiling.",
+      "She is a smart girl."
     ]
   },
   {
     "word": "hand",
-    "translation": "这是hand的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 手",
+    "usage": "用作名词，人体部位。",
     "examples": [
-      "This is an example for hand.",
-      "He likes hand."
+      "Wash your hands before eating.",
+      "He raised his hand."
     ]
   },
   {
     "word": "ice",
-    "translation": "这是ice的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 冰",
+    "usage": "用作名词，冻结的水。",
     "examples": [
-      "This is an example for ice.",
-      "He likes ice."
+      "Put some ice in my drink.",
+      "The lake is covered with ice."
     ]
   },
   {
     "word": "juice",
-    "translation": "这是juice的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 果汁",
+    "usage": "用作名词，水果压榨出的液体。",
     "examples": [
-      "This is an example for juice.",
-      "He likes juice."
+      "I want some orange juice.",
+      "She spilled juice on the table."
     ]
   },
   {
     "word": "kite",
-    "translation": "这是kite的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 风筝",
+    "usage": "用作名词，一种依靠风力飞行的玩具。",
     "examples": [
-      "This is an example for kite.",
-      "He likes kite."
+      "The children are flying a kite.",
+      "My kite got stuck in a tree."
     ]
   },
   {
     "word": "lion",
-    "translation": "这是lion的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 狮子",
+    "usage": "用作名词，一种大型猫科动物。",
     "examples": [
-      "This is an example for lion.",
-      "He likes lion."
+      "The lion roared in the zoo.",
+      "Lions are wild animals."
     ]
   },
   {
     "word": "milk",
-    "translation": "这是milk的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 牛奶",
+    "usage": "用作名词，哺乳动物分泌的白色营养液体。",
     "examples": [
-      "This is an example for milk.",
-      "He likes milk."
+      "Drink a glass of milk.",
+      "We need more milk for the recipe."
     ]
   },
   {
     "word": "nose",
-    "translation": "这是nose的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 鼻子",
+    "usage": "用作名词，人体嗅觉和呼吸器官。",
     "examples": [
-      "This is an example for nose.",
-      "He likes nose."
+      "He has a long nose.",
+      "A dog has a good nose."
     ]
   },
   {
     "word": "orange",
-    "translation": "这是orange的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 橘子；橙色",
+    "usage": "用作名词，指水果或颜色。",
     "examples": [
-      "This is an example for orange.",
-      "He likes orange."
+      "Would you like an orange?",
+      "The sky turned orange at sunset."
     ]
   },
   {
     "word": "pig",
-    "translation": "这是pig的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 猪",
+    "usage": "用作名词，一种家畜。",
     "examples": [
-      "This is an example for pig.",
-      "He likes pig."
+      "The pig is eating.",
+      "They keep pigs on the farm."
     ]
   },
   {
     "word": "queen",
-    "translation": "这是queen的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 女王",
+    "usage": "用作名词，女性君主。",
     "examples": [
-      "This is an example for queen.",
-      "He likes queen."
+      "The queen waved to the crowd.",
+      "She dressed like a queen."
     ]
   },
   {
     "word": "red",
-    "translation": "这是red的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "adj. 红色的",
+    "usage": "用作形容词，表示一种颜色。",
     "examples": [
-      "This is an example for red.",
-      "He likes red."
+      "She wore a red dress.",
+      "Apples can be red or green."
     ]
   },
   {
     "word": "sun",
-    "translation": "这是sun的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 太阳",
+    "usage": "用作名词，太阳系的中心天体。",
     "examples": [
-      "This is an example for sun.",
-      "He likes sun."
+      "The sun is shining brightly.",
+      "Don't look directly at the sun."
     ]
   },
   {
     "word": "tree",
-    "translation": "这是tree的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 树",
+    "usage": "用作名词，多年生木本植物。",
     "examples": [
-      "This is an example for tree.",
-      "He likes tree."
+      "There is a big tree in the yard.",
+      "The bird flew into the tree."
     ]
   },
   {
     "word": "box",
-    "translation": "这是box的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 盒子",
+    "usage": "用作名词，一种容器。",
     "examples": [
-      "This is an example for box.",
-      "He likes box."
+      "Put the toys in the box.",
+      "The box is heavy."
     ]
   },
   {
     "word": "cup",
-    "translation": "这是cup的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 杯子",
+    "usage": "用作名词，一种饮水容器。",
     "examples": [
-      "This is an example for cup.",
-      "He likes cup."
+      "He poured tea into the cup.",
+      "I need a cup of coffee."
     ]
   },
   {
     "word": "desk",
-    "translation": "这是desk的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 书桌",
+    "usage": "用作名词，一种供书写或办公的桌子。",
     "examples": [
-      "This is an example for desk.",
-      "He likes desk."
+      "Her books are on the desk.",
+      "He sat at his desk."
     ]
   },
   {
     "word": "eye",
-    "translation": "这是eye的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 眼睛",
+    "usage": "用作名词，视觉器官。",
     "examples": [
-      "This is an example for eye.",
-      "He likes eye."
+      "Close your eyes.",
+      "She has blue eyes."
     ]
   },
   {
     "word": "face",
-    "translation": "这是face的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 脸",
+    "usage": "用作名词，面部。",
     "examples": [
-      "This is an example for face.",
-      "He likes face."
+      "Wash your face.",
+      "He had a smile on his face."
     ]
   },
   {
     "word": "jump",
-    "translation": "这是jump的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "v. 跳跃",
+    "usage": "用作动词，指离地跳起。",
     "examples": [
-      "This is an example for jump.",
-      "He likes jump."
+      "The frog can jump far.",
+      "Jump over the puddle."
     ]
   },
   {
     "word": "key",
-    "translation": "这是key的翻译",
-    "usage": "作名词时指...，作动词时指...",
+    "translation": "n. 钥匙",
+    "usage": "用作名词，开锁的工具。",
     "examples": [
-      "This is an example for key.",
-      "He likes key."
+      "I lost my key.",
+      "Use this key to open the door."
     ]
   }
 ]

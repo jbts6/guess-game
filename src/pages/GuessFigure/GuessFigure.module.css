@@ -8,8 +8,12 @@
 }
 
 .header {
-  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px dashed #f1f5f9;
 }
 
 .progress {
@@ -91,7 +95,7 @@
 }
 
 .submitBtn {
-  background: #f59e0b;
+  background: linear-gradient(90deg, #f59e0b, #ea580c);
   color: white;
   border: none;
   padding: 0 2rem;
@@ -99,12 +103,14 @@
   font-weight: bold;
   border-radius: 12px;
   cursor: pointer;
-  transition: background 0.2s;
+  transition: all 0.2s;
   font-family: inherit;
 }
 
 .submitBtn:hover {
-  background: #d97706;
+  background: linear-gradient(90deg, #d97706, #c2410c);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
 }
 
 .skipBtn {

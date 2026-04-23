@@ -9,9 +9,14 @@
 
 .title {
   text-align: center;
-  color: #1f2937;
-  font-size: 2rem;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(90deg, #3b82f6, #8b5cf6);
+  font-size: 2.2rem;
   margin-bottom: 2rem;
+  font-weight: 900;
+  letter-spacing: 1px;
 }
 
 .section {
@@ -70,7 +75,7 @@
 }
 
 .startBtn {
-  background: #10b981;
+  background: linear-gradient(90deg, #10b981, #059669);
   color: white;
   border: none;
   padding: 1rem 3rem;
@@ -85,7 +90,7 @@
 }
 
 .startBtn:hover {
-  background: #059669;
+  background: linear-gradient(90deg, #059669, #047857);
   transform: translateY(-2px);
   box-shadow: 0 10px 15px -3px rgba(16, 185, 129, 0.3);
 }

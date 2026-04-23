@@ -13,12 +13,13 @@
 }
 
 .badge {
-  background: #3b82f6;
+  background: linear-gradient(90deg, #3b82f6, #8b5cf6);
   color: white;
-  padding: 4px 12px;
+  padding: 6px 16px;
   border-radius: 20px;
-  font-size: 0.9rem;
-  font-weight: bold;
+  font-size: 0.95rem;
+  font-weight: 800;
+  box-shadow: 0 2px 4px rgba(59, 130, 246, 0.3);
 }
 
 .content {

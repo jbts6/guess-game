@@ -7,23 +7,34 @@
 }
 
 .header {
-  background-color: #ffb6c1;
+  background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
   padding: 1rem 2rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   display: flex;
   justify-content: center;
   align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 .logo {
   text-decoration: none;
-  color: #333;
+  color: white;
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.logo:hover {
+  transform: scale(1.05);
 }
 
 .logo h1 {
   margin: 0;
-  font-size: 1.8rem;
-  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
+  font-size: 2rem;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2), 
+               0 0 10px rgba(255, 255, 255, 0.3);
+  letter-spacing: 2px;
+  font-weight: 900;
 }
 
 .main {

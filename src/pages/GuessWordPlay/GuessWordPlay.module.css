@@ -12,19 +12,25 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px dashed #f1f5f9;
 }
 
 .gradeTag {
-  background: #3b82f6;
+  background: linear-gradient(90deg, #3b82f6, #8b5cf6);
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 9999px;
   font-weight: bold;
+  box-shadow: 0 2px 4px rgba(59, 130, 246, 0.3);
 }
 
 .progress {
   color: #4b5563;
   font-weight: bold;
+  background: #f3f4f6;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
 }
 
 .gameArea {
@@ -92,7 +98,7 @@
 }
 
 .submitBtn {
-  background: #3b82f6;
+  background: linear-gradient(90deg, #3b82f6, #8b5cf6);
   color: white;
   border: none;
   padding: 0 2rem;
@@ -100,12 +106,14 @@
   font-weight: bold;
   border-radius: 12px;
   cursor: pointer;
-  transition: background 0.2s;
+  transition: all 0.2s;
   font-family: inherit;
 }
 
 .submitBtn:hover {
-  background: #2563eb;
+  background: linear-gradient(90deg, #2563eb, #7c3aed);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
 }
 
 .skipBtn {

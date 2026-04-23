@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { Layout } from './components/Layout/Layout';
 import { Home } from './pages/Home/Home';
 import { GuessWordSetup } from './pages/GuessWordSetup/GuessWordSetup';
@@ -8,7 +8,7 @@ import { Stats } from './pages/Stats/Stats';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -18,7 +18,7 @@ function App() {
           <Route path="stats" element={<Stats />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

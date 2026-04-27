@@ -1,73 +1,62 @@
-# React + TypeScript + Vite
+## 猜题大挑战 — 游戏介绍
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 🎮 两种游戏模式
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+#### 📝 猜单词
 
-## React Compiler
+**一句话玩法**：根据颜色提示，逐步缩小范围，猜出隐藏的英语单词。
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**怎么玩**：
+1. 选择你的年级（1-9 年级）和挑战次数（3/5/8 次）
+2. 系统从对应年级的词库中随机选一个单词，只告诉你它有几个字母
+3. 每次输入一个**同长度的英语单词**提交
+4. 系统逐位对照，告诉你哪些字母猜对了：
+   - 🟩 **绿色** = 这个位置的字母完全正确
+   - 🟥 **红色** = 这个位置的字母不对
+5. 根据颜色提示不断调整，在次数用完前猜出答案
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+**举个例子**（答案是 `cook`）：
+```
+第1次输入 come → 🟩🟩🟥🟥  （知道前两个字母是 co）
+第2次输入 cool → 🟩🟩🟩🟥  （知道前三个字母是 coo）
+第3次输入 cook → 🟩🟩🟩🟩  🎉 猜对了！
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+**猜对之后**：展示这个单词的翻译、用法和例句，顺便把单词学了。
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+#### 🧑‍🎓 猜历史人物
+
+**一句话玩法**：根据逐条给出的线索，猜出这位中国历史人物是谁。
+
+**怎么玩**：
+1. 系统随机选一位中国历史人物，先给你 **1 条提示**
+2. 根据提示猜人物名字，猜对就赢
+3. 猜错？没关系，系统再给你 **下一条提示**，一共 10 条
+4. 10 条提示全部用完还没猜出来，挑战失败
+
+**举个例子**（答案是李白）：
 ```
+提示1：他生活在唐朝时期
+提示2：他的家乡位于今天的中国西南地区
+提示3：他年轻时曾游历大半个中国
+...越来越具体，直到你猜出来
+```
+
+**提示设计特点**：每条提示都是间接信息，不会直接告诉你"他是诗仙"这种一眼就猜到的线索，需要你综合多条提示才能推断，像侦探破案一样。
+
+---
+
+### ✨ 游戏特点
+
+| 特点 | 说明 |
+|:---|:---|
+| 📚 **寓教于乐** | 猜单词顺便背单词，猜人物顺便学历史，玩着玩着就学了 |
+| 🎯 **分层难度** | 1-9 年级自由选择，低年级选简单词，高年级挑战难词 |
+| 🧠 **锻炼思维** | 猜单词练逻辑推理，猜人物练历史知识联想 |
+| 📊 **成长可见** | 内置统计系统，记录你的胜率、连胜，看到自己一点点进步 |
+| ⏭️ **无压力** | 猜不出来可以跳过换一题，不会卡住 |
+| 💾 **离线可用** | 不需要网络，随时随地都能玩 |
